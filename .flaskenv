@@ -1,0 +1,4 @@
+FLASK_APP=traffic_light_api
+GREEN_GPIO=16
+YELLOW_GPIO=20
+RED_GPIO=21
