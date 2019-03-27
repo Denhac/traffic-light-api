@@ -41,6 +41,7 @@ def yellow():
 def off():
     print("Turning off lights")
     GPIO.output(green_light, GPIO.LOW)
-    GPIO.output(yellow_light, GPIO.HIGH)
+    GPIO.output(yellow_light, GPIO.LOW)
     GPIO.output(red_light, GPIO.LOW)
+    reutrn "Success"
    
