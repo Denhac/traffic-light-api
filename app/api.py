@@ -5,6 +5,7 @@ green_light = app.config["GREEN_LED"]
 yellow_light = app.config["YELLOW_LED"]
 red_light = app.config["RED_LED"]
 GPIO.setmode(GPIO.BCM)
+print(type(green_light))
 GPIO.setup(green_light, GPIO.OUT)
 GPIO.setup(yellow_light, GPIO.OUT)
 GPIO.setup(red_light, GPIO.OUT)
