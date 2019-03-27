@@ -18,9 +18,9 @@ def green():
 def red():
     print("Turning on RED light")
     print("RED is on port {0}".format(red_light))
-    GPIO.output(green_light, GPIO.LOW)
-    GPIO.output(yellow_light, GPIO.LOW)
-    GPIO.output(red_light, GPIO.HIGH)
+    GPIO.output(21, GPIO.LOW)
+    GPIO.output(20, GPIO.LOW)
+    GPIO.output(16, GPIO.HIGH)
 
 @app.route('/color/yellow')
 def yellow():
