@@ -43,5 +43,5 @@ def off():
     GPIO.output(green_light, GPIO.LOW)
     GPIO.output(yellow_light, GPIO.LOW)
     GPIO.output(red_light, GPIO.LOW)
-    reutrn "Success"
+    return "Success"
    
