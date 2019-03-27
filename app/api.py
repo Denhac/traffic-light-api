@@ -1,9 +1,9 @@
 from app import app
 import RPi.GPIO as GPIO
 
-green_light = app.config["TL_GREEN_LED"]
-yellow_light = app.config["TL_YELLOW_LED"]
-red_light = app.config["TL_RED_LED"]
+green_light = app.config["green_led"]
+yellow_light = app.config["yellow_led"]
+red_light = app.config["red_led"]
 
 @app.route('/color/green')
 def green():
